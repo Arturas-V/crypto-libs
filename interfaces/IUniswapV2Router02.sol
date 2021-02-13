@@ -1,6 +1,6 @@
 pragma solidity >=0.6.2;
 
-import 'https://github.com/Arturas-V/crypto-libs/interfaces/IUniswapV2Router01.sol';
+import 'https://github.com/Arturas-V/crypto-libs/blob/master/interfaces/IUniswapV2Router01.sol';
 
 interface IUniswapV2Router02 is IUniswapV2Router01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(

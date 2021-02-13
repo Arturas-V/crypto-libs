@@ -1,8 +1,8 @@
 pragma solidity >=0.5.0;
 
-import 'https://github.com/Arturas-V/crypto-libs/IUniswapV2Pair.sol';
+import 'https://github.com/Arturas-V/crypto-libs/blob/master/interfaces/IUniswapV2Pair.sol';
 
-import "https://github.com/Arturas-V/crypto-libs/SafeMath.sol";
+import "https://github.com/Arturas-V/crypto-libs/blob/master/SafeMath.sol";
 
 library UniswapV2Library {
     using SafeMath for uint;
